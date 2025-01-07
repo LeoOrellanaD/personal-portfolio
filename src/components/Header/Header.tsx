@@ -40,8 +40,8 @@ export const Header = () => {
 
           <nav className='hidden md:flex items-center space-x-8'>
             <NavLink icon={<Home size={18} />} text={t('home')} />
-            <NavLink icon={<FolderGit2 size={18} />} text={t('projects')} />
             <NavLink icon={<Briefcase size={18} />} text={t('experience')} />
+            <NavLink icon={<FolderGit2 size={18} />} text={t('projects')} />
             <NavLink icon={<User size={18} />} text={t('about')} />
             <div className='relative'>
               <button
