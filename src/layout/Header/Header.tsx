@@ -4,6 +4,8 @@ import { NavLink } from './components/NavLink'
 import { LanguageSelector } from './components/LanguageSelector'
 import { Home, FolderGit2, User, Languages, Briefcase } from 'lucide-react'
 import Language from '../../types/Language'
+import { useTranslation } from 'react-i18next'
+import '../../utils/i18n'
 
 export const Header = () => {
   const [isDark, setIsDark] = useState(false)
@@ -13,6 +15,8 @@ export const Header = () => {
     name: 'Español',
   })
 
+  const { t, i18n } = useTranslation()
+
   const toggleTheme = () => {
     setIsDark(!isDark)
     document.documentElement.classList.toggle('dark')
@@ -21,6 +25,7 @@ export const Header = () => {
   const handleLanguageSelect = (language: Language) => {
     setCurrentLanguage(language)
     setIsLanguageOpen(false)
+    i18n.changeLanguage(language.code)
   }
 
   return (
@@ -34,10 +39,10 @@ export const Header = () => {
           </div>
 
           <nav className='hidden md:flex items-center space-x-8'>
-            <NavLink icon={<Home size={18} />} text='Home' />
-            <NavLink icon={<FolderGit2 size={18} />} text='Projects' />
-            <NavLink icon={<Briefcase size={18} />} text='Experience' />
-            <NavLink icon={<User size={18} />} text='About' />
+            <NavLink icon={<Home size={18} />} text={t('home')} />
+            <NavLink icon={<FolderGit2 size={18} />} text={t('projects')} />
+            <NavLink icon={<Briefcase size={18} />} text={t('experience')} />
+            <NavLink icon={<User size={18} />} text={t('about')} />
             <div className='relative'>
               <button
                 onClick={() => setIsLanguageOpen((prev) => !prev)}
