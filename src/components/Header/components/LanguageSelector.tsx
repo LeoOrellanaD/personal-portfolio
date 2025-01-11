@@ -12,7 +12,7 @@ const languages: Language[] = [
   { code: 'en', name: 'English' },
 ]
 
-export const LanguageSelector = ({
+const LanguageSelector = ({
   isOpen,
   currentLanguage,
   onLanguageSelect,
@@ -39,3 +39,5 @@ export const LanguageSelector = ({
     </div>
   )
 }
+
+export default LanguageSelector

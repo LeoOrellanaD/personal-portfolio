@@ -5,7 +5,7 @@ interface ThemeProps {
   onToggle: () => void
 }
 
-export const ThemeToggle = ({ isDark, onToggle }: ThemeProps) => (
+const ThemeToggle = ({ isDark, onToggle }: ThemeProps) => (
   <button
     onClick={onToggle}
     className='p-2 rounded-full hover:bg-primary-accent/10 transition-colors'
@@ -18,3 +18,5 @@ export const ThemeToggle = ({ isDark, onToggle }: ThemeProps) => (
     )}
   </button>
 )
+
+export default ThemeToggle

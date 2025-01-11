@@ -6,7 +6,10 @@ import { useTranslation } from 'react-i18next'
 export const Presentation = () => {
   const { t } = useTranslation()
   return (
-    <section className='flex flex-col md:flex-row items-center justify-center gap-12 pt-32 pb-20 px-4'>
+    <section
+      className='flex flex-col md:flex-row items-center justify-center gap-12 pt-32 pb-20 px-4'
+      id='home'
+    >
       <div className='w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl'>
         <img src='' alt='Profile' className='w-full h-full object-cover' />
       </div>
