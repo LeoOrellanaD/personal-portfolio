@@ -8,6 +8,13 @@ export const ExperienceItem = ({
   period,
   description,
 }: ExperienceProps) => {
+  
+
+  // Recalcula los párrafos cada vez que cambie el idioma
+  const paragraphs = Array.isArray(description)
+    ? description
+    : description.split('|')
+
   return (
     <div className='relative pl-20'>
       {/* Timeline dot */}
@@ -30,9 +37,15 @@ export const ExperienceItem = ({
             </span>
           </div>
         </div>
-        <p className='text-primary-dark/80 dark:text-primary-light/80'>
-          {description}
-        </p>
+        {/* Renderiza cada párrafo */}
+        {paragraphs.map((paragraph, index) => (
+          <p
+            key={`${title}-${index}`}
+            className='text-primary-dark/80 dark:text-primary-light/80 mb-4 last:mb-0'
+          >
+            {paragraph.trim()}
+          </p>
+        ))}
       </div>
     </div>
   )

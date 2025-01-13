@@ -2,30 +2,31 @@ import ExperienceProps from '../../types/Experience'
 import { ExperienceItem } from './components/ExperienceItem'
 import { useTranslation } from 'react-i18next'
 
-const experiences: ExperienceProps[] = [
-  {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Solutions Inc.',
-    period: '2021 - Present',
-    description:
-      'Led development of enterprise-scale applications using React and Node.js. Managed a team of 5 developers and implemented CI/CD pipelines.',
-  },
-  {
-    title: 'Full Stack Developer',
-    company: 'Digital Innovations Co.',
-    period: '2019 - 2021',
-    description:
-      'Developed and maintained multiple client projects. Implemented responsive designs and RESTful APIs.',
-  },
-]
-
 const Experience = () => {
   const { t } = useTranslation()
+
+  const experiences: ExperienceProps[] = [
+    {
+      id: 1,
+      title: t('exp_tittle1'),
+      company: t('exp_company1'),
+      period: t('exp_period1'),
+      description: t('exp_description1'),
+    },
+    {
+      id: 2,
+      title: t('exp_tittle2'),
+      company: t('exp_company2'),
+      period: t('exp_period2'),
+      description: t('exp_description2'),
+    },
+  ]
+
   return (
     <section className='py-20 px-4' id='experience'>
       <div className='max-w-4xl mx-auto'>
-        <h2 className='text-3xl font-bold text-primary-dark dark:text-primary-light mb-12 text-center'>
-        {t('experience_tittle')}
+        <h2 className='text-3xl font-bold text-primary-accent dark:text-primary-light mb-12 text-center'>
+          {t('experience_tittle')}
         </h2>
 
         <div className='relative'>
@@ -34,8 +35,8 @@ const Experience = () => {
 
           {/* Experience items */}
           <div className='space-y-12'>
-            {experiences.map((experience, index) => (
-              <ExperienceItem key={index} {...experience} />
+            {experiences.map((experience) => (
+              <ExperienceItem key={experience.id} {...experience} />
             ))}
           </div>
         </div>
