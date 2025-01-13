@@ -1,0 +1,18 @@
+{
+  "home": "Home",
+  "projects": "Projects",
+  "experience": "Experience",
+  "about": "About Me",
+  "profesion": "Computer Science Engineer",
+  "short_description": "Software Developer with experience in web applications development. Passionate about technology and programming. Currently looking for my first job opportunity.",
+  "experience_tittle": "Work Experience",
+  "exp_tittle1": "Software Developer",
+  "exp_company1": "CIM UBB",
+  "exp_period1": "May 2021 - August 2021",
+  "exp_description1": "Developed a desktop application in Java for machine management and centralization of probabilistic calculations.|Developed client-server logic with TCP/IP communication to register equipment, perform calculations, and store them.",
+  "exp_tittle2": "Full Stack Developer",
+  "exp_company2": "FACE UBB",
+  "exp_period2": "April 2023 - September 2023",
+  "exp_description2": "Developed a web application to manage the loan of laboratory equipment, covering the entire process from request to delivery, as well as user, equipment, and history management.|The application was created from scratch using Next.js, Material UI, Node.js, Express, and PostgreSQL. Version control was implemented with Git to ensure organized and collaborative development.",
+  "projects_tittle": "Projects"
+}

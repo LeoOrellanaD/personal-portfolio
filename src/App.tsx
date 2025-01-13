@@ -1,5 +1,6 @@
 import Experience from "@components/Experience/Experience"
 import { Presentation } from "@components/Presentation/Presentation"
+import Projects from "@components/Projects/Projects"
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <main>
         <Presentation />
         <Experience />
+        <Projects/>
         
       </main>
     </div>
