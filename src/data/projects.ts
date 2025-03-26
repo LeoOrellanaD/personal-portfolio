@@ -52,7 +52,7 @@ export const projects: Project[] = [
       'PostgreSQL',
     ],
     image: veganProject,
-    githubUrl: 'https://github.com/RobArrCon/GPS-Group2',
+    githubUrl: 'https://github.com/LeoOrellanaD/GPS-Group2',
   },
 
   {

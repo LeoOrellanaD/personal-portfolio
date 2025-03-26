@@ -32,17 +32,17 @@ export const Presentation = () => {
         </p>
         <div className='flex items-center justify-center md:justify-start gap-6'>
           <SocialLink
-            href='https://github.com'
+            href='https://github.com/LeoOrellanaD'
             icon={Github}
             label='GitHub'
           />
           <SocialLink
-            href='https://linkedin.com'
+            href='linkedin.com/in/leopoldo-orellana-díaz-3a5134259'
             icon={Linkedin}
             label='LinkedIn'
           />
           <SocialLink
-            href='mailto:contact@example.com'
+            href='leo.orellana2502@gmail.com'
             icon={Mail}
             label='Email'
           />
