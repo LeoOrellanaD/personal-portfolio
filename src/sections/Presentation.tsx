@@ -37,12 +37,12 @@ export const Presentation = () => {
             label='GitHub'
           />
           <SocialLink
-            href='linkedin.com/in/leopoldo-orellana-díaz-3a5134259'
+            href='https://www.linkedin.com/in/leopoldo-orellana-díaz-3a5134259'
             icon={Linkedin}
             label='LinkedIn'
           />
           <SocialLink
-            href='leo.orellana2502@gmail.com'
+            href='mailto:leo.orellana2502@gmail.com'
             icon={Mail}
             label='Email'
           />
