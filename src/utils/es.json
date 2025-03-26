@@ -2,17 +2,57 @@
   "home": "Inicio",
   "projects": "Proyectos",
   "experience": "Experiencia",
-  "about": "Acerca de Mi",
+  "about": "Acerca de mí",
   "profesion": "Ingeniero Civil en Informática",
-  "short_description": "Desarrollador de Software con experiencia en el desarrollo de aplicaciones web . Apasionado por la tecnología y la programación. Actualmente en busqueda de mi primera oportunidad laboral.",
-  "experience_tittle": "Experiencia Laboral ",
-  "exp_tittle1": "Desarrollador de Software",
+  "short_description": "Desarrollador de software con experiencia en el desarrollo de aplicaciones web. Apasionado por la tecnología y la programación. Actualmente en búsqueda de mi primera oportunidad laboral.",
+  "experience_tittle": "Experiencia laboral",
+  "exp_tittle1": "Desarrollador de software",
   "exp_company1": "CIM UBB",
   "exp_period1": "Mayo 2021 - Agosto 2021",
-  "exp_description1": "Desarrollo de una aplicación de escritorio en Java para la gestión de máquinas y centralización de cálculos probabilísticos.|Desarrollo de lógica cliente-servidor con comunicación TCP/IP para registrar equipos, realizar cálculos y almacenarlos.",
+  "exp_description1": "Desarrollo de una aplicación de escritorio en Java para la gestión de máquinas y centralización de cálculos probabilísticos. Desarrollo de lógica cliente-servidor con comunicación TCP/IP para registrar equipos, realizar cálculos y almacenarlos.",
   "exp_tittle2": "Desarrollador Full Stack",
   "exp_company2": "FACE UBB",
   "exp_period2": "Abril 2023 - Septiembre 2023",
-  "exp_description2": "Desarrollo de una aplicación web para gestionar el préstamo de equipos del laboratorio, abarcando todo el proceso desde la solicitud hasta la entrega, además de la administración de usuarios, equipos e historiales.|La aplicación fue creada desde cero utilizando Next.js, Material UI, Node.js, Express y PostgreSQL. Se implementó control de versiones con Git para garantizar un desarrollo organizado y colaborativo.",
-  "projects_tittle": "Proyectos"
+  "exp_description2": "Desarrollo de una aplicación web para gestionar el préstamo de equipos del laboratorio, abarcando todo el proceso desde la solicitud hasta la entrega, además de la administración de usuarios, equipos e historiales. La aplicación fue creada desde cero utilizando Next.js, Material UI, Node.js, Express y PostgreSQL. Se implementó control de versiones con Git para garantizar un desarrollo organizado y colaborativo.",
+  "projects_tittle": "Proyectos",
+  "MyProjects": {
+    "javaAplication": {
+      "title": "Aplicación para la gestión de cálculos probabilísticos",
+      "description": "Aplicación de escritorio en Java para la gestión de máquinas y centralización de cálculos probabilísticos. La aplicación permite registrar equipos, realizar cálculos y almacenar los resultados."
+    },
+    "LabAplication": {
+      "title": "Aplicación para la gestión de préstamos de equipos",
+      "description": "Aplicación web para gestionar el préstamo de equipos del laboratorio, abarcando todo el proceso desde la solicitud hasta la entrega, además de la administración de usuarios, equipos e historiales."
+    },
+    "LaundryAplication": {
+      "title": "60 minutos",
+      "description": "Proyecto universitario que consiste en una aplicación web para la gestión de una lavandería. La aplicación permite agendar el servicio, ver gastos, avisar mantenimiento, entre otras funcionalidades."
+    },
+    "VeganAplication": {
+      "title": "Vegateca",
+      "description": "Proyecto universitario que consiste en una aplicación web para mostrar productos veganos en supermercados chilenos y dónde obtenerlos."
+    },
+    "PokedexAplication": {
+      "title": "Pokedex 4gen",
+      "description": "Aplicación web de una Pokedex inspirada en la cuarta generación de Pokémon, desarrollada en Angular y consumiendo datos de la PokéAPI."
+    },
+    "LibrosAplication": {
+      "title": "Libros API",
+      "description": "Aplicación Backend de una API REST para obtener información de libros implementada en SpringBoot y consumiendo datos de la Gutendex API."
+    },
+    "ForoAplication": {
+      "title": "Foro API",
+      "description": "Aplicación Backend de una API REST para gestionar tópicos en un foro."
+    }
+  },
+  "github": "Código",
+  "AboutMe_title": "Acerca de mí",
+  "academic_background": "Formación académica",
+  "academic_background_body": "Titulado en Ingeniería Civil en Informática en la Universidad del Bío-Bío, donde adquirí conocimientos principalmente en programación orientada a objetos, bases de datos y desarrollo web.",
+  "passion": "Mi pasión",
+  "passion_body": "Me gusta la tecnología y la programación. Me divierto mucho trabajando con lógica y encontrando soluciones creativas a los problemas de código. Soy una persona curiosa, por lo que siempre ando viendo cosas nuevas que pueda aprender.",
+  "focus": "Mi enfoque",
+  "focus_body": "Mi fuerte es el desarrollo de software, sobre todo aplicaciones web, pero estoy abierto a nuevos desafios. Si hay algo nuevo que necesite aprender por trabajo o por curiosidad propia, tendré la mayor disponibilidad para aprenderlo.",
+  "profesional_objectives": "Objetivos profesionales",
+  "profesional_objectives_body": "Mi objetivo principal en etapa actual es la de aprender lo máximo  posible, sobre todo aprender de personas con mas experiencia que puedan orientar y transmitir conocimientos para ser un mejor profesional."
 }

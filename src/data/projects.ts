@@ -3,61 +3,90 @@ import loanProject from '../assets/projects/loanProject.webp'
 import washProject from '../assets/projects/washProject.webp'
 import veganProject from '../assets/projects/veganProject.webp'
 import pokemonProject from '../assets/projects/pokemonProject.webp'
+import backend from '../assets/projects/backend.webp'
 
 export interface Project {
-  title: string
-  description: string
+  titleKey: string
+  descriptionKey: string
   technologies: string[]
   image: string
-  githubUrl: string
+  githubUrl?: string
   liveUrl?: string
 }
 
 export const projects: Project[] = [
   {
-    title: 'E-commerce Platform',
-    description:
-      'A full-featured e-commerce platform built with React and Node.js. Includes user authentication, product management, and payment processing.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+    titleKey: 'MyProjects.javaAplication.title',
+    descriptionKey: 'MyProjects.javaAplication.description',
+    technologies: ['Java', 'JavaSwing'],
     image: javaProject,
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
   },
   {
-    title: 'Task Management App',
-    description:
-      'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-    technologies: ['React', 'TypeScript', 'Firebase', 'Tailwind CSS'],
+    titleKey: 'MyProjects.LabAplication.title',
+    descriptionKey: 'MyProjects.LabAplication.description',
+    technologies: [
+      'Next.js',
+      'Material UI',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+    ],
     image: loanProject,
-    githubUrl: 'https://github.com',
   },
   {
-    title: 'Weather Dashboard',
-    description:
-      'A weather dashboard that displays current weather conditions and forecasts for multiple locations using weather API integration.',
-    technologies: ['React', 'OpenWeather API', 'Chart.js', 'Tailwind CSS'],
+    titleKey: 'MyProjects.LaundryAplication.title',
+    descriptionKey: 'MyProjects.LaundryAplication.description',
+    technologies: ['Next.js', 'Chakra UI', 'Node.js', 'Express', 'PostgreSQL'],
     image: washProject,
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/LeoOrellanaD/Ingenieria-software',
   },
 
   {
-    title: 'E-commerce Platform',
-    description:
-      'A full-featured e-commerce platform built with React and Node.js. Includes user authentication, product management, and payment processing.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+    titleKey: 'MyProjects.VeganAplication.title',
+    descriptionKey: 'MyProjects.VeganAplication.description',
+    technologies: [
+      'Next.js',
+      'Material UI',
+      'Node.js',
+      'Express',
+      'PostgreSQL',
+    ],
     image: veganProject,
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/RobArrCon/GPS-Group2',
   },
 
   {
-    title: 'E-commerce Platform',
-    description:
-      'A full-featured e-commerce platform built with React and Node.js. Includes user authentication, product management, and payment processing.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+    titleKey: 'MyProjects.PokedexAplication.title',
+    descriptionKey: 'MyProjects.PokedexAplication.description',
+    technologies: ['Angular', 'PokéAPI'],
     image: pokemonProject,
-    githubUrl: 'https://github.com',
-    liveUrl: 'https://example.com',
+    githubUrl: 'https://github.com/LeoOrellanaD/Pokedex4gen-Angular',
+  },
+  {
+    titleKey: 'MyProjects.LibrosAplication.title',
+    descriptionKey: 'MyProjects.LibrosAplication.description',
+    technologies: [
+      'Java',
+      'SpringBoot',
+      'Hibernate',
+      'PostgreSQL',
+      'Gutendex-API',
+    ],
+    image: backend,
+    githubUrl: 'https://github.com/LeoOrellanaD/Libros-Api-Challenge-One',
+  },
+  {
+    titleKey: 'MyProjects.ForoAplication.title',
+    descriptionKey: 'MyProjects.ForoAplication.description',
+    technologies: [
+      'Java',
+      'SpringBoot',
+      'Spring Security',
+      'JWT ',
+      'Hibernate',
+      'MySQL',
+    ],
+    image: backend,
+    githubUrl: 'https://github.com/LeoOrellanaD/Foro-ApiRest-Challenge-One',
   },
 ]

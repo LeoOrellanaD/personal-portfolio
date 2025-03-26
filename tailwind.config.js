@@ -12,6 +12,7 @@ export default {
           highlight: '#FC5185',
         },
       },
+     
     },
   },
   plugins: [],

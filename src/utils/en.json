@@ -4,15 +4,55 @@
   "experience": "Experience",
   "about": "About Me",
   "profesion": "Computer Science Engineer",
-  "short_description": "Software Developer with experience in web applications development. Passionate about technology and programming. Currently looking for my first job opportunity.",
+  "short_description": "Software Developer with experience in web application development. Passionate about technology and programming. Currently looking for my first job opportunity.",
   "experience_tittle": "Work Experience",
   "exp_tittle1": "Software Developer",
   "exp_company1": "CIM UBB",
   "exp_period1": "May 2021 - August 2021",
-  "exp_description1": "Developed a desktop application in Java for machine management and centralization of probabilistic calculations.|Developed client-server logic with TCP/IP communication to register equipment, perform calculations, and store them.",
+  "exp_description1": "Developed a Java desktop application for machine management and centralization of probabilistic calculations. Developed client-server logic with TCP/IP communication to register equipment, perform calculations, and store them.",
   "exp_tittle2": "Full Stack Developer",
   "exp_company2": "FACE UBB",
   "exp_period2": "April 2023 - September 2023",
-  "exp_description2": "Developed a web application to manage the loan of laboratory equipment, covering the entire process from request to delivery, as well as user, equipment, and history management.|The application was created from scratch using Next.js, Material UI, Node.js, Express, and PostgreSQL. Version control was implemented with Git to ensure organized and collaborative development.",
-  "projects_tittle": "Projects"
+  "exp_description2": "Developed a web application to manage laboratory equipment loans, covering the entire process from request to delivery, including user, equipment, and history management. The application was created from scratch using Next.js, Material UI, Node.js, Express, and PostgreSQL. Version control was implemented with Git for organized and collaborative development.",
+  "projects_tittle": "Projects",
+  "MyProjects": {
+    "javaAplication": {
+      "title": "Application for probabilistic calculations management",
+      "description": "Java desktop application for machine management and centralization of probabilistic calculations. The application allows registering equipment, performing calculations, and storing the results."
+    },
+    "LabAplication": {
+      "title": "Application for laboratory equipment loan management",
+      "description": "Web application to manage laboratory equipment loans, covering the entire process from request to delivery, including user, equipment, and history management."
+    },
+    "LaundryAplication": {
+      "title": "Laundry Application",
+      "description": "University project consisting of a web application for laundry management. The application allows scheduling services, viewing expenses, notifying maintenance, among other functionalities."
+    },
+    "VeganAplication": {
+      "title": "Vegateca",
+      "description": "University project consisting of a web application to display vegan products in Chilean supermarkets and their locations."
+    },
+    "PokedexAplication": {
+      "title": "Pokedex 4gen",
+      "description": "Web application of a Pokedex inspired by the fourth generation of Pokémon, developed in Angular and consuming data from the PokéAPI."
+    },
+    "LibrosAplication": {
+      "title": "Books API",
+      "description": "Backend application of a REST API to obtain book information implemented in SpringBoot and consuming data from the Gutendex API."
+    },
+    "ForoAplication": {
+      "title": "Forum API",
+      "description": "Backend application of a REST API to manage forum topics."
+    }
+  },
+  "github": "Code",
+  "AboutMe_title": "About Me",
+  "academic_background": "Academic Background",
+  "academic_background_body": "Bachelor's degree in Computer Science Engineering from Universidad del Bío-Bío, where I acquired knowledge mainly in object-oriented programming, databases, and web development.",
+  "passion": "My Passion",
+  "passion_body": "I enjoy technology and programming. I have a lot of fun working with logic and finding creative solutions to code problems. I am a curious person, so I am always looking for new things to learn.",
+  "focus": "My Focus",
+  "focus_body": "My strength is software development, especially web applications, but I am open to new challenges. If there is something new I need to learn for work or personal curiosity, I will have the greatest availability to learn it.",
+  "profesional_objectives": "Professional Objectives",
+  "profesional_objectives_body": "My main objective at this stage is to learn as much as possible, especially from people with more experience who can guide and share knowledge to become a better professional."
 }

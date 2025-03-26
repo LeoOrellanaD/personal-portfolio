@@ -1,6 +1,6 @@
 import { Briefcase, Building2, Calendar } from 'lucide-react'
 
-import ExperienceProps from '../../../types/Experience'
+import ExperienceProps from '../types/Experience'
 
 export const ExperienceItem = ({
   title,

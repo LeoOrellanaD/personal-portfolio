@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react'
-import Language from '../../../types/Language'
+import Language from '../types/Language'
 
 interface Props {
   isOpen: boolean

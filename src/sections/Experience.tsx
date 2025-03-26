@@ -1,5 +1,5 @@
-import ExperienceProps from '../../types/Experience'
-import { ExperienceItem } from './components/ExperienceItem'
+import { ExperienceItem } from '@components/ExperienceItem'
+import ExperienceProps from '../types/Experience'
 import { useTranslation } from 'react-i18next'
 
 const Experience = () => {

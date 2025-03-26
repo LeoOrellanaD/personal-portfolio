@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 const HeaderNav = ({ activeSection }: { activeSection: string }) => {
   const { t } = useTranslation()
   return (
-    <nav className='hidden md:flex items-center space-x-8'>
+    <nav className='flex items-center space-x-4 md:space-x-8'>
       <NavLink
         icon={<Home size={18} />}
         text={t('home')}

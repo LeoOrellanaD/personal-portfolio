@@ -1,7 +1,8 @@
 import { Github, Linkedin, Mail } from 'lucide-react'
-import { SocialLink } from './components/SocialLink'
-import '../../utils/i18n'
+import { SocialLink } from '@components/SocialLink'
 import { useTranslation } from 'react-i18next'
+import '../utils/i18n'
+import personal_image from '../assets/personal_image.webp'
 
 export const Presentation = () => {
   const { t } = useTranslation()
@@ -11,16 +12,21 @@ export const Presentation = () => {
       id='home'
     >
       <div className='w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl'>
-        <img src='' alt='Profile' className='w-full h-full object-cover' />
+        <img
+          src={personal_image}
+          alt='Profile'
+          className='w-full h-full object-cover bg-white/10'
+        />
       </div>
 
       <div className='max-w-xl text center md:text-left'>
         <h2 className='text-2xl font-medium text-primary-accent mb-2'>
           {t('profesion')}
         </h2>
-        <h1 className='text-4xl md:text-5xl font-bold text-primary-accent dark:text-primary-light mb-4'>
+        <h1 className='text-4xl md:text-5xl font-bold mb-4 inline-block bg-gradient-to-r from-primary-accent to-primary-highlight bg-clip-text text-transparent animate-gradient'>
           Leopoldo Orellana
         </h1>
+
         <p className='text-lg text-primary-dark/80 dark:text-primary-light/80 mb-8'>
           {t('short_description')}
         </p>
@@ -28,17 +34,17 @@ export const Presentation = () => {
           <SocialLink
             href='https://github.com'
             icon={Github}
-            label='GitHub Profile'
+            label='GitHub'
           />
           <SocialLink
             href='https://linkedin.com'
             icon={Linkedin}
-            label='LinkedIn Profile'
+            label='LinkedIn'
           />
           <SocialLink
             href='mailto:contact@example.com'
             icon={Mail}
-            label='Email Contact'
+            label='Email'
           />
         </div>
       </div>
